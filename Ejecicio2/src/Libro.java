@@ -67,4 +67,9 @@ public class Libro {
     public void setCantidadEjemplares(int cantidadEjemplares){
         this.cantidadEjemplares=cantidadEjemplares;
     }
+
+    public void devolver() {
+        cantidadEjemplares++;
+        System.out.println("Libro devuelto");
+    }
 }
