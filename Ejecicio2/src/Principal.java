@@ -21,9 +21,13 @@ public class Principal {
         System.out.println("Libro 1: "+l1.mostrarInformacion());
         System.out.println("Libro 2: "+l2.mostrarInformacion());
         l1.setTitulo("Nuevo Titulo");
+        l1.setAutor("Nuevo Autor");
+        l1.setCategoria("Nueva Categoria");
+        l1.setAnio(2020);
+        l1.setCantidadEjemplares(6);
         System.out.println("Libro 1: "+l1.mostrarInformacion());
         l1.setTitulo("Principito");
         System.out.println("Libro 1: "+l1.mostrarInformacion());
 
     }
-}
+}   
